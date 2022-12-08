@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - Print a string
-Description: prints "with proper grammar, but the outcome is a piece of art,\n"
- *   Return: 0
+ * Description: prints "with proper grammar, but the outcome is a piece of art,"
+ * Return: 0
  */
 int main(void)
 {
