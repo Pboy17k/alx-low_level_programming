@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
  *   main - Entry point
+ *   Description: use printf
  *   My hello, printf task
  *   Return: return 1 after program execution
  */
