@@ -7,24 +7,15 @@
  *   * followed by a new line
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
+	char lc;
 
-		char lc;
+	for (lc = 'a', lc <= 'z'; lc++)
+	{
 
-
-
-	for (lc = 'a'; lc <= 'z'; lc++)
-
-					{
-
-								putchar(ch);
-
-									}
-
-				putchar('\n');
+		putchar(lc);
+	}
+	putchar('\n');
+	return (0);
 }
-				return (0);
-
