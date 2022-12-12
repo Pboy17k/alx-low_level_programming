@@ -1,27 +1,40 @@
-#include<stdio.h>
+#include <stdio.h>
+
+
+
 /**
- * main - Entry point
- * Description: prints
- * Return: Always 0 (Success)
+ *  * main - Entry point
+ *    * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
-	int i;
 
-	for (i = '0'; i <= '9' ; i++)
+	int c;
+
+
+
+	for (c = '0'; c <= '9'; c++)
+
 	{
-		putchar(i);
 
-		if (i != 8)
+		putchar(c);
+
+		if (c != '9')
+
 		{
+
 			putchar(',');
+
 			putchar(' ');
+
 		}
+
 	}
 
 	putchar('\n');
 
 	return (0);
+
 }
