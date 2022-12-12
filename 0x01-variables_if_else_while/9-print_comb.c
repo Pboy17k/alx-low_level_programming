@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Description: print 0, 1, - 9
+ * Description: prints
  * Return: Always 0 (Success)
  */
 
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(i);
 
-		if (i != 9)
+		if (i != 8)
 		{
 			putchar(',');
 			putchar(' ');
