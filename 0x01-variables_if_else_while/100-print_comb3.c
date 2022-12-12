@@ -19,7 +19,7 @@ int main(void)
 
 		for (i = '0'; i <= '9'; i++)
 		{
-			if (c < i)
+		if (c < i)
 													{
 														putchar(c);
 														putchar(i);
@@ -27,8 +27,7 @@ int main(void)
 														{
 					putchar(',');
 					putchar(' ');								}
-																																			}
-
+																						
 																}
 
 									}
