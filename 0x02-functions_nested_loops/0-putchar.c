@@ -3,31 +3,33 @@
 
 
 /**
- * main - Print _putchar
- * Return: Always 0(Success)
+ *  * main -  prints _putchar, followed by a new line
+ *   * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
 
-		putchar(95);
+		_putchar('_');
 
-			_putchar(112);
+			_putchar('p');
 
-				_putchar(117);
+				_putchar('u');
 
-					_putchar(116);
+					_putchar('t');
 
-						_putchar(99);
+						_putchar('c');
 
-							_putchar(104);
+							_putchar('h');
 
-								_putchar(97);
+								_putchar('a');
 
-									_putchar(114);
+									_putchar('r');
 
 										_putchar('\n');
+
+
 
 											return (0);
 
