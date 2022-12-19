@@ -1,45 +1,21 @@
-#include "main.h"
-
-
+#include"main.h"
 
 /**
- *  * puts2 - prints one charout of 2 of a string
- *   * followed by a new line
- *    * @str: string to print the chars from
- */
+ * print_line - print a straight line
+ * @n: is the number of times the _ character
+ *     should be printed
+*/
 
-void puts2(char *str)
-
+void print_line(int n)
 {
+	int lnChr;
 
-		int len, i;
-
-
-
-			len = 0;
-
-
-
-				while (str[len] != '\0')
-
-						{
-
-									len++;
-
-										}
-
-
-
-					for (i = 0; i < len; i += 2)
-
-							{
-
-										_putchar(str[i]);
-
-											}
-
-
-
-						_putchar('\n');
-
+	if (n <= 0)
+		_putchar('\n');
+	else
+	{
+		for (lnChr = 1; lnChr <= n; ++lnChr)
+			_putchar('_');
+		_putchar('\n');
+	}
 }
